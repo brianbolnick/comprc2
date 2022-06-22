@@ -17,13 +17,14 @@ ZSH_THEME="hyperzsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions brew macos colored-man-pages jsontools)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions brew macos colored-man-pages jsontools)
 
 source $ZSH/oh-my-zsh.sh
 
 ######################
 ##### GENERAL CONFIGS
 ######################
+fpath+=/opt/homebrew/share/zsh/site-functions
 autoload -U promptinit; promptinit
 prompt pure
 
@@ -94,3 +95,9 @@ alias loct='foo(){ lt --port "$1" --subdomain "$2"}; foo'
 #######################
 ### AUTO GENERATED
 #######################
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -30,11 +30,9 @@ brew 'autojump'
 brew 'ffmpeg'
 brew 'git'
 brew 'git-lfs'
-brew 'github/gh/gh'
 brew 'gmp'
 brew 'grep'
 brew 'imagemagick'
-brew 'ngrok'
 brew 'p7zip'
 brew 'pigz'
 brew 'pv'
@@ -43,7 +41,6 @@ brew 'rsync'
 brew 'ssh-copy-id'
 brew 'tree'
 brew 'vbindiff'
-brew 'youtube-dl'
 
 ##########################
 # TOOLING
@@ -54,8 +51,6 @@ brew "asdf"
 brew "macvim"
 brew "neovim"
 brew "fzf"
-brew "zsh-autosuggestions"
-brew "zsh-syntax-highlighting"
 brew "postgresql"
 brew "ranger"
 brew "tmux"
@@ -68,7 +63,7 @@ cask "font-hack-nerd-font"
 cask "google-chrome"
 cask 'authy'
 cask 'clickup'
-cask 'discord'
+#cask 'discord'
 cask 'figma'
 cask 'graphiql'
 cask 'iterm2'
