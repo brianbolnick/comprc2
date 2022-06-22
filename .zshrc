@@ -87,11 +87,9 @@ function send() {
 }
 
 #Other tools
-alias awsume='. awsume'
 alias pid='foo(){ lsof -nP -i4TCP:"$1" | grep LISTEN }; foo'
 alias ngrok='foo(){ ngrok http "$1"}; foo'
 alias loct='foo(){ lt --port "$1" --subdomain "$2"}; foo'
-alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 
 #######################
 ### AUTO GENERATED

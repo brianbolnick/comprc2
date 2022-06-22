@@ -46,16 +46,23 @@ brew 'vbindiff'
 brew 'youtube-dl'
 
 ##########################
-# APPLICATIONS AND TOOLING
+# TOOLING
 ##########################
+brew "node"
+brew "yarn"
 brew "asdf"
 brew "macvim"
 brew "neovim"
-brew "node"
+brew "fzf"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 brew "postgresql"
 brew "ranger"
 brew "tmux"
-brew "yarn"
+
+##########################
+# APPLICATIONS
+##########################
 cask "docker"
 cask "font-hack-nerd-font"
 cask "google-chrome"
