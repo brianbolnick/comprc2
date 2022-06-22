@@ -248,7 +248,7 @@ let g:multi_cursor_exit_from_insert_mode=0
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:UltiSnipsEditSplit="vertical"
-let g:UltiSnipsSnippetDirectories = ['UltiSnips', $HOME.'/compfigs/my-snippets/UltiSnips']
+let g:UltiSnipsSnippetDirectories = ['UltiSnips', $HOME.'/comprc2/my-snippets/UltiSnips']
 "let g:UltiSnipsListSnippets = "<c-r>"
 "let g:UltiSnipsExpandTrigger="<tab>"
 

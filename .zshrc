@@ -42,7 +42,7 @@ alias dprune="docker system prune -a --volumes"
 #tmux
 alias tmux="TERM=screen-256color-bce tmux"
 alias tattach='foo(){tmux a -t "$1"}; foo'
-alias work='tmuxinator start emotive'
+alias work='tmuxinator start jobwise'
 alias dev='tmuxinator start home'
 
 # General Rewrites + Navigation

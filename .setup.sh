@@ -10,7 +10,7 @@
 
 dir=~/comprc2                                # dotfiles directory
 olddir=~/comprc2_old                         # old dotfiles backup directory
-files="zshrc vimrc vim tmux.conf"    # list of files/folders to symlink in homedir
+files="zshrc vimrc vim tmux.conf gitconfig"    # list of files/folders to symlink in homedir
 export YELLOW='\033[1;33m'
 export PURPLE='\033[0;35m'
 export GREEN='\033[0;32m'
