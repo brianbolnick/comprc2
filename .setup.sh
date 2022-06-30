@@ -101,6 +101,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 #SSH stuff
 echo -e "${YELLOW}Follow the instructions below for creating a default SSH key ${PURPLE} ====>${NC}"
 ssh-keygen -t rsa
+cp ./config ~/.ssh/config
 echo -e "${YELLOW}Finished with customizations ${PURPLE} ====>${NC}"
 
 # switch to zsh shell
