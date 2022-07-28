@@ -10,7 +10,7 @@ call plug#begin("~/.vim/plugged")
 Plug 'SirVer/ultisnips' " Snippet engine
 Plug 'airblade/vim-gitgutter' " Vim gutter integration
 Plug 'backdoer/splitjoin.vim' " fork of splitjoin including elixir functions
-"Plug 'cespare/vim-toml', { 'branch': 'main' }
+Plug 'cespare/vim-toml', { 'branch': 'main' }
 Plug 'christoomey/vim-tmux-navigator' " used for pane nav with tmux
 Plug 'elixir-editors/vim-elixir' " Elixir support for vim
 Plug 'francoiscabrol/ranger.vim' " Ranger
@@ -37,6 +37,8 @@ Plug 'tpope/vim-fugitive' " Vim git integration
 Plug 'tpope/vim-vinegar' " Vinegar
 Plug 'zxqfl/tabnine-vim' " Autocomplete for vim
 Plug 'bluz71/vim-nightfly-guicolors'
+Plug 'pantharshit00/vim-prisma' " Prisma
+Plug 'mustache/vim-mustache-handlebars' " mustache files
 
 call plug#end()
 
@@ -346,7 +348,7 @@ if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
   let g:coc_global_extensions += ['coc-eslint']
 endif
 
-nnoremap <silent> K :call CocAction('doHover')<CR>
+nnoremap <silent> N :call CocAction('doHover')<CR>
 
 function! ShowDocIfNoDiagnostic(timer_id)
   if (coc#float#has_float() == 0 && CocHasProvider('hover') == 1)
